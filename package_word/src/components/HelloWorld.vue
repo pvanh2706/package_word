@@ -1,5 +1,6 @@
 <template>
   <div>
+    <el-button type="primary" @click="handleClick">Nhấn vào tôi</el-button>
     <button @click="fetchData">Gọi API</button>
     <p>Kết quả từ API: {{ result }}</p>
   </div>
