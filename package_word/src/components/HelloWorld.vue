@@ -15,6 +15,9 @@ export default {
       result: "",
     };
   },
+  mounted() {
+    this.fetchData();
+  },
   methods: {
     async fetchData() {
       try {

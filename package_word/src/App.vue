@@ -1,15 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <TranslateWord/>
+  
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import TranslateWord from './components/TranslateWord.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    TranslateWord
   }
 }
 </script>
